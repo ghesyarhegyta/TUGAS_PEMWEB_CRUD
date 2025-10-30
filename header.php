@@ -14,7 +14,7 @@
 <body>
     <header class="topbar">
         <div class="topbar-inner">
-            <h1>CRUD Sederhana</h1>
+            <h1>ContactHub – Aplikasi CRUD PHP Native</h1>
         </div>
     </header>
     <main class="container">
