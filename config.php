@@ -22,11 +22,9 @@ function getPDO(): PDO
                 PDO::ATTR_EMULATE_PREPARES => false,
             ]);
 
-            // ✅ DEBUG sukses koneksi (opsional)
             echo "<p style='color:green;'>✅ Koneksi database berhasil.</p>";
 
         } catch (PDOException $e) {
-            // ⚠️ DEBUG error koneksi
             echo "<p style='color:red;'>❌ Error koneksi database:</p>";
             echo "<pre>" . htmlspecialchars($e->getMessage()) . "</pre>";
             exit;
