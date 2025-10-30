@@ -13,11 +13,11 @@ create table if not exists contacts (
 
 INSERT INTO contacts (name, email, phone, notes)
 VALUES
-('Ghesya Rhegyta', 'ghesya@mail.com', '081234567890', 'Teman kampus'),
+('Ghesya Rhegyta', 'ghesyarhegyta@mail.com', '089637355972', 'Presiden'),
 ('Gadis Wulandari', 'naagadis@mail.com', '085822161864', 'Baddie imut'),
-('Rafi Ahmad', 'rafi@mail.com', '089512345678', 'Kontak bisnis'),
-('Siti Nurhaliza', 'siti@mail.com', '082112345678', 'Customer loyal'),
-('Bayu Saputra', 'bayu@mail.com', '081355555555', 'Rekan proyek');
+('Kim Jennie', 'jennie@mail.com', '089512345678', 'Kontak bisnis'),
+('Meong', 'meong@mail.com', '082112345678', 'Customer loyal'),
+('Brigita Natania', 'brigita@mail.com', '085245567254', 'Rekan proyek');
 
 USE crudsederhana;
 SELECT * FROM contacts;
