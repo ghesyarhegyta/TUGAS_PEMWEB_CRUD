@@ -127,7 +127,7 @@ define('DB_PASS', '');
 
 ## 🖼️ Screenshot Aplikasi
 
-![Tampilan Aplikasi](assets/screenshotweb.png)
+![Tampilan Aplikasi](assets/screenshootweb.png)
 
 ---
 
@@ -141,4 +141,5 @@ define('DB_PASS', '');
 ```
 
 ---
+
 
