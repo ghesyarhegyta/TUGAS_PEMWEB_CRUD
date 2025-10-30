@@ -96,7 +96,7 @@ Dibuat untuk memenuhi tugas individu pemrograman web dasar serta melatih penerap
 ```
 crud_sederhana/
 ├── assets/               # Folder untuk file CSS, JS, atau gambar (termasuk screenshot)
-├── config/               # Folder berisi file konfigurasi tambahan (opsional)
+├── config/               # Folder berisi file konfigurasi tambahan
 ├── config.php            # File utama koneksi database menggunakan PDO
 ├── create.php            # Halaman untuk menambahkan data (Create)
 ├── delete.php            # Halaman untuk menghapus data (Delete)
@@ -137,8 +137,6 @@ define('DB_PASS', '');
 **NIM:** 2409106023
 **Project:** Tugas Individu – CRUD Sederhana PHP Native
 
-
-```
 
 
 
