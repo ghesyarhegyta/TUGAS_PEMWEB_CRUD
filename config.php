@@ -22,8 +22,6 @@ function getPDO(): PDO
                 PDO::ATTR_EMULATE_PREPARES => false,
             ]);
 
-            echo "<p style='color:green;'>✅ Koneksi database berhasil.</p>";
-
         } catch (PDOException $e) {
             echo "<p style='color:red;'>❌ Error koneksi database:</p>";
             echo "<pre>" . htmlspecialchars($e->getMessage()) . "</pre>";
